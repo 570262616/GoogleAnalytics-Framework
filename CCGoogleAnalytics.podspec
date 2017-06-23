@@ -15,19 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "CCGoogleAnalytics"
-  s.version      = "3.17"
-  s.summary      = "A short description of CCGoogleAnalytics."
+  s.name         = 'CCGoogleAnalytics'
+  s.version      = '3.17'
+  s.summary      = 'CCGoogleAnalytics'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = 'CCGoogleAnalytics framework'
 
-  s.homepage     = "https://github.com/570262616/GoogleAnalytics-Framework"
+  s.homepage     = 'https://github.com/570262616/GoogleAnalytics-Framework'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -63,14 +62,10 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +86,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Google Analytics/*"
-  # s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "Google Analytics/External/*"
 
   # s.public_header_files = "Classes/**/*.h"
 

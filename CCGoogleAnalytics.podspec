@@ -11,5 +11,7 @@ Pod::Spec.new do |s|
   s.source_files  = "GoogleAnalytics/*", "GoogleAnalytics/External/*"
 
   s.frameworks = 'CoreData', 'SystemConfiguration'
+
+  s.libraries = 'z', 'sqlite3'
   
 end

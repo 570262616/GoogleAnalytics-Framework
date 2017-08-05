@@ -9,5 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files  = "GoogleAnalytics/*", "GoogleAnalytics/External/*"
+
+  s.frameworks = 'CoreData', 'SystemConfiguration'
   
 end

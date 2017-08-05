@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/570262616/GoogleAnalytics-Framework.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "Google Analytics/*"
-  s.exclude_files = "Google Analytics/External/*"
+  s.source_files  = "GoogleAnalytics/*"
+  s.exclude_files = "GoogleAnalytics/External/*"
   
 end

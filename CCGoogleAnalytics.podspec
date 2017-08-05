@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'CCGoogleAnalytics'
+  s.name             = 'GoogleAnalytics'
   s.version          = '3.17'
   s.summary          = 'GoogleAnalytics-Framework'
   s.homepage         = 'https://github.com/570262616/GoogleAnalytics-Framework'
